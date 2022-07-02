@@ -1,3 +1,16 @@
 <resources>
     <string name="app_name">MainActivity</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="title_main_fragment">Google Certification Course! 📱</string>
+    <string name="toast_and_snack"><![CDATA[Toast & Snack]]></string>
+
+    <string name="okay">Okay</string>
+
+    <string name="message_toast_content">a message toast for you!</string>
+    <string name="message_snack_content">a message snack for you!</string>
+
+    <string name="message_toast_description">Message Button</string>
+    <string name="announcement_snack_description">Announcement Button</string>
+    <string name="message_snack_action_description">Message Button</string>
 </resources>
