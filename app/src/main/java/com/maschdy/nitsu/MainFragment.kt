@@ -17,8 +17,7 @@ class MainFragment : Fragment(R.layout.fragment_main) {
     }
 
     private fun setButtons() = with(binding) {
-        toastAndSnackButton.setOnClickListener {
-            navigateTo(MainFragmentDirections.actionMainFragmentToToastSnackbarFragment())
-        }
+        codelabToastAndSnackButton.setOnClickListener { navigateTo(R.id.toastSnackFragment) }
+        codelabNotificationButton.setOnClickListener { navigateTo(R.id.notificationFragment) }
     }
 }

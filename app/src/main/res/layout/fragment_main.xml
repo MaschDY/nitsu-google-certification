@@ -10,9 +10,11 @@
     <TextView
         android:id="@+id/textView"
         style="@style/TextAppearance.AppCompat.Large"
-        android:layout_width="wrap_content"
+        android:layout_width="0dp"
         android:layout_height="wrap_content"
+        android:layout_marginHorizontal="24dp"
         android:layout_marginTop="24dp"
+        android:gravity="center"
         android:text="@string/title_main_fragment"
         android:textColor="@color/gray"
         app:layout_constraintEnd_toEndOf="parent"
@@ -20,7 +22,7 @@
         app:layout_constraintTop_toTopOf="parent" />
 
     <Button
-        android:id="@+id/toast_and_snack_button"
+        android:id="@+id/codelab_toast_and_snack_button"
         android:layout_width="0dp"
         android:layout_height="60dp"
         android:layout_marginHorizontal="24dp"
@@ -30,5 +32,17 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/codelab_notification_button"
+        android:layout_width="0dp"
+        android:layout_height="60dp"
+        android:layout_marginHorizontal="24dp"
+        android:layout_marginTop="24dp"
+        android:text="@string/notification"
+        android:textAllCaps="false"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/codelab_toast_and_snack_button" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

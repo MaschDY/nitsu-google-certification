@@ -11,12 +11,20 @@
         android:label="fragment_main"
         tools:layout="@layout/fragment_main">
         <action
-            android:id="@+id/action_mainFragment_to_toastSnackbarFragment"
+            android:id="@+id/action_mainFragment_to_toastSnackFragment"
             app:destination="@id/toastSnackFragment" />
+        <action
+            android:id="@+id/action_mainFragment_to_notificationFragment"
+            app:destination="@id/notificationFragment" />
     </fragment>
     <fragment
         android:id="@+id/toastSnackFragment"
         android:name="com.maschdy.nitsu.core.toastSnack.ToastSnackFragment"
         android:label="fragment_toast_snack"
         tools:layout="@layout/fragment_toast_snack" />
+    <fragment
+        android:id="@+id/notificationFragment"
+        android:name="com.maschdy.nitsu.core.notification.NotificationFragment"
+        android:label="fragment_notification"
+        tools:layout="@layout/fragment_notification" />
 </navigation>

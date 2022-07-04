@@ -3,8 +3,10 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="app/src/main/res/drawable/ic_android.xml" value="0.1735" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.31927083333333334" />
         <entry key="app/src/main/res/layout/fragment_main.xml" value="0.31927083333333334" />
+        <entry key="app/src/main/res/layout/fragment_notification.xml" value="0.24456521739130435" />
         <entry key="app/src/main/res/layout/fragment_toast_snack.xml" value="0.15526849037487336" />
         <entry key="app/src/main/res/layout/fragment_toast_snackbar.xml" value="0.26313405797101447" />
       </map>

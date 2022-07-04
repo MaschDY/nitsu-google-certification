@@ -8,7 +8,7 @@ import androidx.navigation.NavDirections
 import androidx.navigation.fragment.findNavController
 import com.google.android.material.snackbar.Snackbar
 
-fun Fragment.navigateTo(@IdRes destination: NavDirections) =
+fun Fragment.navigateTo(@IdRes destination: Int) =
     findNavController().navigate(destination)
 
 fun Fragment.navigateTo(@IdRes destination: Int, args: Bundle) =
